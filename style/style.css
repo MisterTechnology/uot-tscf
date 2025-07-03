@@ -1,0 +1,736 @@
+/* Global Variable */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: var(--background);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --background: rgba(136, 0, 0, 0.932);
+    --main-font: calibri;
+    --heading: Quicksand;
+    --color: #00085e;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 20px;
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 20px;
+    font-family: Montserrat;
+}
+
+h4 {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: #fbfbfb;
+    padding: 10px;
+}
+
+.nav-links {
+    color: #ffffff;
+    font-family: Roboto;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid none;
+}
+
+footer {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Hover Effects */
+.nav-links:hover {
+    transition: all 0.3 ease-in-out;
+    border-bottom: 2px solid black;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: #fbfbfb;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.slogan {
+    color: grey;
+    text-align: center;
+}
+
+.unitechLogo, .TSCFlogo {
+    mix-blend-mode: darken;
+}
+
+.navigation_bar {
+    width: 100%;
+    background: rgb(0, 0,255);
+    padding: 2rem;
+}
+
+.navigation_bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content {
+    display: block;
+}
+
+h6 {
+    font-size: 16px;
+    padding: 20px 0;
+    color: #fff200;
+    text-align: left;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer li {
+    color: #fbfbfb;
+    padding: 5px 0;
+}
+/* Global Ends*/
+
+
+/* Index.html */
+.banner {
+    background: linear-gradient(#0c0c0ce5, #35313194), url(../media/christine-erispe-aA7FXax_yo0-unsplash.jpg);
+    width: 100%;
+    height: 70vh;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h2 span {
+    color: rgb(46, 145, 188);
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 100px;
+    place-content: center;
+}
+
+.grid-element {
+    border: 1px solid #4b4b4b;
+    background:#6e6e6ea0;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.grid-element a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Montserrat;
+
+}
+
+.whatsapp:hover {
+    background-color: rgb(0, 145, 7);
+    transition: all 0.3s ease-in
+}
+
+.yt:hover {
+    background-color: rgb(193, 54, 47);
+    transition: all 0.3s ease-in;
+}
+
+.download:hover {
+    background-color: rgb(28, 47, 123);
+    transition: all 0.3s ease;
+}
+
+.content-btn {
+    background-color: transparent;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.content-btn:hover {
+    background-color: #006eff;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contents:nth-child(even) {
+    background-color: rgb(0, 179, 255);
+    /**display: flex;
+    flex-direction: row-reverse;**/
+}
+
+.contents:nth-child(odd) {
+    background-color: rgb(134, 0, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+}
+.contents {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.contents .boxes {
+    align-self: top;
+}
+
+.contents ul {
+    padding: 30px;
+}
+
+.contents ul li {
+    font-family: roboto;
+}
+
+.boxes {
+    width: 50%;
+    padding: 20px;
+}
+
+.pic {
+    animation: float 3s ease-in-out infinite;
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 4px 8px;
+}
+
+.boxes div {
+    padding: 20px;
+}
+
+.boxes div a {
+    padding: 10px;
+    margin: 20px;
+    color: #003a87;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.img_box {
+    display: flex;
+    padding: 0;
+}
+
+footer {
+    background: #003a87;
+    color: #fff;
+    font-family: Roboto;
+    text-align: center;    
+}
+
+.footer-content ul {
+    list-style: none;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    background-color: transparent;
+
+}
+
+.contact-btn {
+    background-color: #f2f2f2;
+    color: #111111;
+    font-size: 20px;
+    font-family: Quicksand;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+/* index.html ends here */
+
+/* About.html */
+.container_one {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    place-items: center;
+}
+
+.container_one .boxes h2 {
+    color: #000;
+    font-size: 40px;
+}
+
+.container_one .boxes p {
+    font-weight: 600;
+}
+
+.download_flyer {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    font-family: Quicksand;
+}
+
+.download_flyer a {
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5%;
+    outline: #003a87;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out;
+}
+
+.download_flyer a:hover {
+    color: #fff;
+    background: #003a87;
+    transition: all 0.3s ease-out;
+}
+
+.boxes .links {
+    justify-self: center;
+}
+
+.video_canvas {
+    width: 100%;
+    height: 50%;
+}
+
+.video_canvas video {
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+}
+
+.video_canvas p {
+    padding: 0 30px 30px 30px;
+    color: #fbfbfb;
+}
+
+.links {
+    color: #fff;
+    background: none;
+    outline: 1px solid #fff;
+    color: #000000;
+    text-decoration: none;
+    font-family: Montserrat;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 80px;
+    transition: all 0.3s ease-in;
+    animation: coloring 1s ease-in-out infinite;
+}
+
+.links:hover {
+    border-radius: 10%;
+    color: #000000;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    animation: none;
+}
+
+#about .content .boxes {
+    background-color: #eff1f4;
+    color: #000;
+}
+/** Program **/
+.contents_summary {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+.contents_summary ul {
+    padding: 20px;
+}
+
+.contents_summary ul li {
+    margin: 10px;
+}
+
+.flex-box {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.flex-box div {
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    place-self: center;
+}
+
+.flex-box div .main-title {
+    text-align: center;
+}
+
+.program-card {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.banner-panel {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.info-panel {
+    width: 45%;
+    background-color: #0000003c;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.program-heading {
+    color: #00bfff;
+    font-size: 30px;
+    font-family: Quicksand;
+    text-shadow: 1px 2px 3px #333;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #ccc;
+    padding: 10px 0;
+}
+
+.desc {
+    color: grey;
+    font-family: Montserrat;
+    padding: 20px 0;
+}
+
+.venue {
+    display: flex;
+    align-self: bottom;
+    color: #fff;
+}
+
+.date {
+
+    color: #fff;
+}
+/* Executive.html */
+
+.executive-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.profile-card {
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 15px;
+    color: #000;
+    background-color: rgb(0, 193, 200);
+    text-align: center;
+    box-shadow: 2px 4px 8px #333;
+}
+
+.executive-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    justify-self: center;
+}
+
+.profile-card p strong {
+    color: #fff200;
+    padding: 5px;
+    font-family: Montserrat;
+}
+
+.profile-card p {
+    text-align: left;
+    color: #000000;
+    font-family: Quicksand;
+    padding: 10px;
+}
+
+.profile-card.fullscreen .canvas img {
+    height: 50vh;
+    width: 45vw;
+}
+
+.profile-card.fullscreen {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.466);
+
+}
+
+.profile-card.fullscreen .canvas {
+    width: 50%;
+    background: rgb(0, 193, 200);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    color: #000;
+}
+
+.profile-card.fullscreen h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.profile-card.fullscreen p {
+    font-size: 18px;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    color: #fbfbfb;
+}
+
+.profile-card.fullscreen .close-btn {
+    display: block;
+}
+
+.unitechLogo {
+    height: 100px;
+    width: 70px;
+}
+
+.TSCFlogo {
+    height: 100px;
+    width: 100px;
+}
+
+.program-banner {
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+}
+
+.schedule-card p {
+    padding: 10px;
+    font-family: Montserrat;
+    
+}
+
+iframe {
+    width: 80%;
+}
+/** Animation **/
+
+@keyframes coloring {
+    0% {
+        background: rgba(255, 255 ,255 ,0.0);
+    }
+
+    50% {
+        background: rgba(255, 255 ,255 ,0.5);
+    }
+    100% {
+        background: rgba(255, 255 ,255 ,0.0);
+    }
+
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 890px) {
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .navigation_bar {
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #ffffff;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 20px;
+        font-family: Montserrat;
+    }
+
+    h4 {
+        font-size: 50px;
+        font-family: Montserrat;
+        color: #fbfbfb;
+        padding: 10px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .btn {
+        padding: 10px;
+        font-family: Montserrat;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .banner .slogan_slang {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .containers {
+        width: 100%;
+        place-items: center;
+    }
+
+    .contents:nth-child(odd) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contents:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .boxes {
+        width: 100%;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .schedule-card {
+        display: block;
+        width: 100%;
+    }
+
+    .schedule-card .left-panel, .schedule-card .right-panel {
+        width: 100%;
+    }
+
+    .close-btn {
+        top: -5px;
+        right: 2;
+        font-size: 30px;
+        color: #000;
+    }
+}

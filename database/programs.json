@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "banner": "../media/prayer.jpg",
+      "heading": "Prayer Night",
+      "title": "Prayer Breaks Everychains (Mat. 7.7)",
+      "desc": "Come and join us in a peacefull time of prayer and worship, and spiritual growth.Come and let us interceed on behalf of our community, campus and nation.",
+      "venue": "Christion Center",
+      "date": "01 of May"
+    },
+    {
+      "banner": "",
+      "heading": "Saturday Dawn Prayer",
+      "title": "More Prayer , More Power",
+      "desc": "Come and join us in a peacefull time of prayer and worship, and spiritual growth.Come and let us interceed on behalf of our community, campus and nation.",
+      "venue": "Basket Ball Court",
+      "date": "03 of May"
+    },
+    {
+      "banner":"../media/saturday.jpg",
+      "heading":"Saturday Main Fellowship",
+      "title":"Honourable Vessels Purged through Fire",
+      "desc":"Step out tonight to exercise your faith as we share the love of Christ through conversations, acts of service and fellowship here in Unitech campus",
+      "venue": "Christion Center",
+      "date":"03 of May"
+    },
+    {
+      "banner":"../media/outreach.jpg",
+      "heading":"Friday Outreach in Campus",
+      "title":"By His stripes we were healed",
+      "desc":"Step out tonight to exercise your faith as we share the love of Christ through conversations, acts of service and fellowship here in Unitech campus",
+      "venue": "UOT School Gate",
+      "date": "10 of May"
+    }
+  ]
+}

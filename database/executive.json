@@ -1,0 +1,74 @@
+{
+  "executive": [
+    {
+      "name": "Jane Doe",
+      "role": "President",
+      "image": "../database/images/Jane_Doe.jpg",
+      "bio": "Provides leadership and vision for the fellowship, coordinating all executive functions and overseeing programs.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "John Smith",
+      "role": "Vice President",
+      "image": "../database/images/John_Smith.jpg",
+      "bio": "Supports the president and helps manage the departments and fellowship logistics.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Sarah Osei",
+      "role": "General Secretary",
+      "image": "../database/images/Sarah_Oesi.jpg",
+      "bio": "Handles administration, documentation, and communication for smooth fellowship operations.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Standford Clerence",
+      "role": "Music Director",
+      "image": "../database/images/Standford_Clerence.jpg",
+      "bio": "Over sees music practice and looks after the instruments in Unitech TSCF. Music Director os the head of the music ministry.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Florence Derek",
+      "role": "Treasurer",
+      "image": "../database/images/Florence_Derek.jpg",
+      "bio": "Handles finace operation in TSCF, this includes counting of money and other forms like tiths and offerings. Treasurer also gives report at the end of each semester.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Phil Adams",
+      "role": "Publication Co-ordinator",
+      "image": "../database/images/Phil_Adams.jpg",
+      "bio": "Publication co - ordinator is responsible for creating flyers and posters for TSCF and making TSCF programs become known to the public students body.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Joseph Elizah",
+      "role": "Special Events Co-ordinator",
+      "image": "../database/images/Joseph_Elizah.jpg",
+      "bio": "Responsible for organizing special events like the crusades and other special outreach like visitations.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Edward Stevens",
+      "role": "Outreach Co-ordinator",
+      "image": "../database/images/Edward_Stevens.jpg",
+      "bio": "Outreach co-ordinator is responsible for conducting minor outreach within the school premises and also for conducting major outreach which TSCF travel to other province to help save lost souls.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Peter Peath",
+      "role": "CLWF President",
+      "image": "../database/images/Peter_Peath.jpg",
+      "bio": "This is the president of another body within TSCF that acts like a church and have fellowship on Sundays. Baptism service are held every year to baptize students into the kingdom of God.",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    },
+    {
+      "name": "Nathaniel Shedrick",
+      "role": "CLWF Vice President",
+      "image": "../database/images/Nathaniel_Shedrick.jpg",
+      "bio": "Assist the CLWF president to do church duties within TSCF in campus",
+      "course": "Bachelor of Accounting in Business Management Year 3"
+    }
+  ]
+}
