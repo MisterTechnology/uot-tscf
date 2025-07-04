@@ -971,7 +971,7 @@ iframe {
     .boxes div a {
         text-align: center;
         font-size: 12px;
-        padding: 5px;
+        padding: 10px;
     }
 
 }
@@ -1090,10 +1090,6 @@ iframe {
     .video_canvas p {
         padding: 10px;
         font-size: 12px;
-    }
-
-    .hero p {
-        font-size: 10px;
     }
 
     .grid {
