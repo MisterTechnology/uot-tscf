@@ -704,6 +704,10 @@ iframe {
     width: 1500;
     height: 1000;
 }
+
+.info-panel p {
+    color: white;
+}
 /** Animation **/
 
 @keyframes coloring {
