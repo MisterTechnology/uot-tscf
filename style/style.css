@@ -234,7 +234,7 @@ h4 {
 .hero {
     background: linear-gradient(#0c0c0ce5, #35313194), url(../media/christine-erispe-aA7FXax_yo0-unsplash.jpg);
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     padding: 20px;
     background-position: center;
     background-size: cover;
@@ -943,7 +943,7 @@ iframe {
         justify-content: center;
     }
         .hero {
-        height: 70vh;
+        height: 80vh;
     }
 
     .grid-element {
