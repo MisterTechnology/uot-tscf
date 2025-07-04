@@ -1007,3 +1007,11 @@ iframe {
         height: 40vh;
     }
 }
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 12px;
+    }
+
+    
+}
