@@ -957,6 +957,10 @@ iframe {
         font-size: 10px;
     }
 
+    .video-container {
+        height: 60vh;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -1045,7 +1049,12 @@ iframe {
     }
 
     h2 {
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .video_canvas p {
+        padding: 10px;
+        font-size: 12px;
     }
 
     .hero p {
